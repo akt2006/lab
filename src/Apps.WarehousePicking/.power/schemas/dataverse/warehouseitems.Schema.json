@@ -130,7 +130,7 @@
             null,
             null
           ],
-          "x-ms-optionsetmetadataid": "2729c44d-73d3-4348-9c45-1d7afdf7ce88",
+          "x-ms-optionsetmetadataid": "e83b018c-3b60-4387-8aff-50c47feff355",
           "x-ms-isGlobal": false,
           "x-ms-optionsetdisplayname": "Category",
           "x-ms-optionSetType": "Picklist"
@@ -188,6 +188,22 @@
           "x-ms-schema-name": "lab_name",
           "x-ms-dataverse-primary-name": true,
           "required": true,
+          "maxLength": 100
+        },
+        "lab_productid": {
+          "type": "string",
+          "title": "Product",
+          "x-ms-dataverse-attribute": "lab_productid",
+          "x-ms-dataverse-type": "LookupType",
+          "x-ms-schema-name": "lab_productid"
+        },
+        "lab_productidname": {
+          "type": "string",
+          "title": "lab_productidname",
+          "x-ms-dataverse-attribute": "lab_productidname",
+          "x-ms-dataverse-type": "StringType",
+          "x-ms-schema-name": "lab_productidName",
+          "x-ms-read-only": true,
           "maxLength": 100
         },
         "lab_reorderpoint": {
@@ -396,7 +412,7 @@
             null,
             null
           ],
-          "x-ms-optionsetmetadataid": "e08260a5-1c5c-40e5-a48f-d714bf56db5b",
+          "x-ms-optionsetmetadataid": "45215099-77d6-4474-8872-abebbfd0fe0a",
           "x-ms-isGlobal": false,
           "x-ms-optionsetdisplayname": "Status",
           "x-ms-optionSetType": "State"
@@ -427,7 +443,7 @@
             null,
             null
           ],
-          "x-ms-optionsetmetadataid": "8e42fb81-0c67-48cd-8f5a-cf57ddbbf088",
+          "x-ms-optionsetmetadataid": "04f46273-5501-40fa-8a96-028fecc70d5d",
           "x-ms-isGlobal": false,
           "x-ms-optionsetdisplayname": "Status Reason",
           "x-ms-optionSetType": "Status"
